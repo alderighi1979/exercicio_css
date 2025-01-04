@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #333;
+    color: white; 
+    padding: 16px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header li {
+    display: inline;
+    margin-left: 16px;
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header li:hover {
+    text-decoration: underline;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+}
+.container {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+#sports article a {
+    background-color: green;
+}
+
+#technology article a {
+    background-color: rgb(255, 0, 98);
+}
+
+#entertainment article a {
+    background-color: purple;
+}
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+#economy {
+    background-color: burlywood;
+}
+
+#sports {
+    background-color: lightgrey;
+}
+
+#technology {
+    background-color: lightblue;
+}
+
+#entertainment {
+    background-color: lightcoral;
+}
